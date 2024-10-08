@@ -1,0 +1,26 @@
+python -m venv env
+mcqs\Scripts\activate
+pip install openai
+
+
+source myenv/bin/activate  # for Linux/Mac
+env\Scripts\activate  # for Windows
+pip install ipykernel
+python -m ipykernel install --user --name=mcqs --display-name "Python (env)"
+jupyter-notebook
+
+pip install google-search-results
+pip install langchain==0.3.1 langchain-community==0.3.1 langsmith==0.1.125
+pip install  langchain-openai
+pip install pypdf
+
+pip install huggingface_hub 
+pip install transformers==4.34.0
+pip install bitsandbytes
+pip install accelerate
+
+pip install -U langchain-huggingface
+pip install ipywidgets  # To resolve the TqdmWarning about IProgress
+
+pip uninstall sentencepiece
+pip install sentencepiece==0.1.99
