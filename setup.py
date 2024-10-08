@@ -3,8 +3,8 @@ from setuptools import find_packages, setup
 setup(
     name='mcqgenerator',
     version='0.0.1',
-    author='sunny savita',
-    author_email='sunny.savita@ineuron.ai',
+    author='Saadullah',
+    author_email='saadullah946@gmail.com',
     install_requires=[
         "openai", 
         "langchain", 

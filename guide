@@ -24,3 +24,7 @@ pip install ipywidgets  # To resolve the TqdmWarning about IProgress
 
 pip uninstall sentencepiece
 pip install sentencepiece==0.1.99
+
+pip install -r requirements.txt
+
+https://github.com/sunnysavita10/MCQGenerator/tree/main
